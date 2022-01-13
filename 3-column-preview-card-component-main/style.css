@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 144rem;
+  height: 100vh;
+  font-family: "Inter" sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  background-color: hsl(0, 0%, 95%);
+}
+/* Big Shoulders Display */
+.card {
+  max-width: 80rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__col-1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 3rem;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+}
+.icon {
+  width: 6.4rem;
+  height: 4rem;
+  margin: 2rem 0 2rem 0;
+}
+.card__heading {
+  font-family: "Big Shoulders Display";
+  font-size: 2.8rem;
+  font-weight: 700;
+  /* text-align: center; */
+  color: white;
+  margin-bottom: 2rem;
+}
+.card__description {
+  font-family: "Inter";
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.card__col-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 3rem;
+}
+.card__col-3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 3rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  margin-right: 0.1rem;
+}
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
+[class^="btn-"] {
+  text-decoration: none;
+  background-color: white;
+  font-size: 1.3rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
